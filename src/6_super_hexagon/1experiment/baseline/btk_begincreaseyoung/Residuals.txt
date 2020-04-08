@@ -1,0 +1,1 @@
+Iteration	Solution Residual	Mass Conservation Residual	Hematocrit Residual
