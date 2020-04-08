@@ -152,6 +152,7 @@ B_LF = 1.642565E-5;
 C_LF = 0.6573*133.32;
 % Coefficient D [Pa]
 D_LF = -2*133.32;
+
 %==============================================
 %  DIMENSIONLESS PARAMETER
 %==============================================
@@ -192,6 +193,10 @@ BCvalue = '0.0 0.0  0.0  0.0  0.0  0.0'
 BCbeta = '2.22E-16 2.22E-16 2.22E-16 2.22E-16 2.22E-16 2.22E-16';
 % Outside interstitial pressure for MIX condition
 % use BCvalue to set P0 when using MIX conditions
+% Coefficient for MIX condition
+% BETA = 2.22E-6;
+% Outside interstitial pressure for MIX condition
+% P0 = -1;
 %===================================
 %  HEMATOCRIT PROBLEM
 %===================================
