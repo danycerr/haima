@@ -188,15 +188,12 @@ D_LF = -2*133.32;
 % BC labels (DIR / MIX)
 BClabel = 'MIX MIX  MIX  MIX  MIX  MIX'
 % BC values
-BCvalue = '0.0 0.0  0.0  0.0  0.0  0.0'
+% BCvalue = '0.0 0.0  0.0  0.0  0.0  0.0'
+BCvalue = '-1.0 -1.0 -1.0 -1.0 -1.0 -1.0'
 % Coefficient for MIX condition
-BCbeta = '2.22E-16 2.22E-16 2.22E-16 2.22E-16 2.22E-16 2.22E-16';
+BCbeta = '2.22E-6 2.22E-6 2.22E-6 2.22E-6 2.22E-6 2.22E-6';
 % Outside interstitial pressure for MIX condition
 % use BCvalue to set P0 when using MIX conditions
-% Coefficient for MIX condition
-% BETA = 2.22E-6;
-% Outside interstitial pressure for MIX condition
-% P0 = -1;
 %===================================
 %  HEMATOCRIT PROBLEM
 %===================================
