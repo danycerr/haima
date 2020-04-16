@@ -1,6 +1,1 @@
 Iteration	Solution Residual	Mass Conservation Residual	Hematocrit Residual
-1	1.11902	0	0.00110023
-2	0.00206566	0	3.10849e-07
-3	5.66863e-07	0	4.23578e-10
-4	7.90423e-10	0	9.07999e-14
-5	1.8466e-13	0	6.49379e-15

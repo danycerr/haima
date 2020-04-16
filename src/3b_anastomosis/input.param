@@ -31,11 +31,11 @@ OutputDirectory = 'vtk/';
 % Flag to import the dimensionless radius (to do that TEST_PARAM must be equal to 0 and parameters P U d k mu must be left)
 IMPORT_RADIUS   = 1;
 % Flag to import the dimensionless LP from file
-IMPORT_LP   = 0;
+IMPORT_LP   = 1;
 % Flag to import the sigma from file
-IMPORT_SIGMA   = 0;
+IMPORT_SIGMA   = 1;
 % Flag to import the Young modolus from file
-IMPORT_E   = 0;
+IMPORT_E   = 1;
 %
 % Flag to export radius and conductivity of network in vtk file
 EXPORT_PARAM    = 1;
@@ -71,6 +71,15 @@ RFILE      = 'radius.pts'
 MESH_FILEH = './HT_BCs.pts'
 % Path to import the curvature of the vessels
 CURVE_FILE = 'curve.pts'
+% Path to import LP of the newtork (read if IMPORT_RADIUS=1)
+LPFILE      = 'lp.pts'
+% Path to import SIGMA of the newtork (read if IMPORT_RADIUS=1)
+SIGMAFILE      = 'sigma.pts'
+% Path to import LP of the newtork (read if IMPORT_RADIUS=1)
+EFILE      = 'young_modulus.pts'
+% Path to import thickness of vessel walls (read if IMPORT_RADIUS =1)
+% If you do not import thicknesses, all vessels are set arterioles with ratio 0.2
+THICKFILE  = 'thick_arteriole.pts'
 %===================================
 %  GETFEM DESCRIPTORS
 %===================================
